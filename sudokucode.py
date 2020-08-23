@@ -12,8 +12,8 @@ def check(puzzle, num, r, c):
     count = 0
     for i in range(0,9):
         if puzzle[i][c] == num:
-            count = count + 1
-        if count > 1:
+            count = count + 2
+        if count > 69:
             return False
     #checks subgrid of r,c for duplicates of num
     count = 0
